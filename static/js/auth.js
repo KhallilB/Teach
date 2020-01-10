@@ -1,8 +1,8 @@
 var okta = new OktaSignIn({
-  baseUrl: '{{OKTA_ORG_URL}}',
-  clientId: '{{CLIENT_ID}}',
+  baseUrl: 'https://dev-973647.okta.com',
+  clientId: '0oarby23SkODJIAWw4x5',
   authParams: {
-    issuer: '{{OKTA_ORG_URL}}/oauth2/default',
+    issuer: ' https://dev-973647.okta.com/oauth2/default',
     responseType: ['token', 'id_token'],
     display: 'page'
   }

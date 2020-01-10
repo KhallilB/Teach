@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>vchat - a simple video chat app</title>
+    <title>Teach</title>
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -27,15 +27,11 @@
       type="text/css"
       rel="stylesheet"
     />
-    <script src="https://webrtc.github.io/adapter/adapter-4.2.2.js"></script>
-    <script src="/static/js/auth.js"></script>
-    <script src="/static/js/video.js"></script>
   </head>
   <body>
     <div class="container">
       <header>
-        <h1><a href="/">vchat</a></h1>
-        <h2><a href="/">a simple video chat app</a></h2>
+        <h1><a href="/">Teach</a></h1>
       </header>
 
       <div id="okta-login-container"></div>
@@ -85,8 +81,16 @@
         </div>
       </div>
     </div>
-    <script>
+    <script src="https://webrtc.github.io/adapter/adapter-4.2.2.js"></script>
+    <script
+      type="text/javascript"
+      src="./static/js/auth.js"
+    >
       handleLogin();
     </script>
+    <script
+      type="text/javascript"
+      src="/static/js/video.js"
+    ></script>
   </body>
 </html>
